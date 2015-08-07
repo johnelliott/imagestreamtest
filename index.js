@@ -9,7 +9,7 @@ exports.imageCallback = function(callback) {
       return err;
     }
 
-    console.log("abou to call callback with res", res);
+    console.log("about to call callback with res", res);
     callback(res);
   });
 };
